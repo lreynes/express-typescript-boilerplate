@@ -1,0 +1,9 @@
+service: preprod
+runtime: nodejs14
+env_variables:
+  DB_HOST: 'localhost'
+  DB_USER: 'postgres'
+  DB_PASSWORD: 'postgres'
+  DB_DATABASE: 'postgres'
+  JWT_SECRET: 'jwt_secret'
+  PORT: '8080'
